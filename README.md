@@ -1,7 +1,7 @@
 # Google UI Fonts
-Google UI fonts:
 * Google Sans
 * Google Sans Display
+* Google Sans Text
 * Open Sans
 * Roboto
 * Roboto Mono
