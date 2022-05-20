@@ -6,7 +6,7 @@ all: unzip
 
 .PHONY: unzip
 unzip:
-	mkdir $(fonts_dir)
+	mkdir -p $(fonts_dir)
 	for i in $(zip_dir)/*.zip; do unzip -o "$$i" -d $(fonts_dir); done
 
 .PHONY: clean
